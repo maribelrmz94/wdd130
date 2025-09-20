@@ -17,7 +17,7 @@
 
 body {
   font-family: var(--body-font);
-  color: var(--accent1-color);
+  color: var(--primary-color);
 }
 
 header, main, footer {
@@ -27,7 +27,8 @@ header, main, footer {
 
 h1, h2{
   font-family: var(--heading-font);   
-  color: var(--primary-color);        
+  color: var(--secondary-color); 
+  background-color: #338d36;       
 }
 
 
@@ -80,4 +81,8 @@ nav, p, section, article{
   width: 125px;
   margin-left: 12px;
   display: inline;
+}
+
+h1, article{
+    position: absolute;
 }
