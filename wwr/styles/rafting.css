@@ -126,29 +126,36 @@ nav a:hover {
   text-align: center;
 }
 
+.adventures h2 {
+  margin-bottom: 1rem;
+}
+
 .adventure-gallery {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
-  margin-top: 1rem;
+  display: flex;             
+  justify-content: space-between; 
+  gap: 1rem;                
 }
 
 .adventure-gallery figure {
+  flex: 1;                  
   margin: 0;
+  text-align: center;
 }
 
 .adventure-gallery img {
-  width: 100%;
-  height: 150px; /* keep rectangular shape */
-  object-fit: cover;
-  border-radius: 8px;
+  width: 100%;                
+  height: 150px;            
+  object-fit: cover;          
+  border-radius: 6px;        
 }
 
 .adventure-gallery figcaption {
   margin-top: 0.5rem;
   font-size: 0.9rem;
+  font-weight: 600;
   color: var(--primary-color);
 }
+
 /* Footer */
 footer {
   margin-top: 2rem;
