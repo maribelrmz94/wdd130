@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Wave Wonder Rafting</title>
+    <meta name="description"
+        content="Get in touch with Wave Wonder Rafting for questions, reservations, and adventure planning. We'd love to help you start your next rafting journey!">
+    <meta name="author" content="Maribel Ramirez">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="Wave Wonder Rafting Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-container">
+            <div class="company-info">
+                <h1>Wave Wonder Rafting</h1>
+                <p>123 River Run Rd<br>Austin, TX 73301</p>
+                <p>(512) 555-RAFT (7238)<br>info@wavewonderrafting.com</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Google Map -->
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.8217899303863!2d-97.74306078455673!3d30.26715398180121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5a9b0b4b7f7%3A0x9aaf98d35c70f7c7!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1697050500000!5m2!1sen!2sus"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form" action="submit-form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset>
+                        <legend>Message Purpose:</legend>
+                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
+                        <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+                    </fieldset>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly
+                        newsletter</label>
+
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/johnrivera.jpg" alt="John Rivera">
+                    <figcaption>John Rivera — Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/sarahnguyen.jpg" alt="Sarah Nguyen">
+                    <figcaption>Sarah Nguyen — Safety Coordinator</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/carloslopez.jpg" alt="Carlos Lopez">
+                    <figcaption>Carlos Lopez — Guest Services Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 🌊 Wave Wonder Rafting 🌊 Maribel Ramirez </p>
+        <nav>
+            <a class="socialmedia" href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a class="socialmedia" href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon">
+            </a>
+            <a class="socialmedia" href="https://youtube.com">
+                <img src="images/youtube.png" alt="YouTube Icon">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
